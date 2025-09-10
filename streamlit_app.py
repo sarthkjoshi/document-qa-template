@@ -1,11 +1,10 @@
 import streamlit as st
 from transformers import pipeline
 
-st.title("📄 Document question answering (Free)")
+st.title("📄 Document question answering")
 
 st.write(
     "Upload a document below and ask a question about it. "
-    "This app uses a free Hugging Face model — no API key required, but it's less powerful than GPT."
 )
 
 uploaded_file = st.file_uploader("Upload a document (.txt)", type=["txt"])
