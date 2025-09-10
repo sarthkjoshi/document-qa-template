@@ -10,6 +10,8 @@ A simple Streamlit app that answers questions about an uploaded document via Ope
 
    ```
    $ pip install -r requirements.txt
+   $ pip install transformers torch sentence_transformers
+
    ```
 
 2. Run the app
